@@ -1,75 +1,47 @@
+# Observation Back-Porting
 
-![Demo](https://github.com/winddpan/ObservationBP/blob/master/Demo/ObservationBPSwiftUIDemo/Demo.gif?raw=true)
+SPM for back-porting the Observation framework to earlier OS versions.
 
-## Example
-``` Swift
-import ObservationBP
+The same APIs as the Observation framework are provided but without the limitation of iOS/tvOS 17. 
+
+Verified on Xcode 15.1.
+
+### Usage
+
+```swift
 import SwiftUI
+import ObservationBP
 
-@Observable final class Person {
-    var name: String
-    var age: Int
-
-    init(name: String, age: Int) {
-        self.name = name
-        self.age = age
-    }
-}
-
-struct ContentView: View {
-    @Observing @State var person: Person = Person(name: "name", age: 1)
+struct TestView: View {
+    @State var viewModel = TestViewModel()
 
     var body: some View {
-        VStack {
-            PersonNameView(person: person)
-            PersonAgeView(person: person)
+        ObservationView {
+            VStack {
+                Text("Counter = \(viewModel.counter)")
+                Button("Increment Count") {
+                    viewModel.increment()
+                }
+            }
         }
     }
 }
 
-private struct PersonNameView: View {
-    @Observing var person: Person
+@Observable final class TestViewModel {
+    var counter = 0
 
-    var body: some View {
-        Text(person.name)
-            .foregroundColor(Color(
-                red: .random(in: 0 ... 1),
-                green: .random(in: 0 ... 1),
-                blue: .random(in: 0 ... 1)
-            ))
-    }
-}
-
-private struct PersonAgeView: View {
-    @Observing var person: Person
-
-    var body: some View {
-        Text("age \(person.age)")
-            .foregroundColor(Color(
-                red: .random(in: 0 ... 1),
-                green: .random(in: 0 ... 1),
-                blue: .random(in: 0 ... 1)
-            ))
+    func increment() {
+        counter += 1
     }
 }
 ```
 
-## Installation
-Swift Package Manager
-> https://github.com/winddpan/ObservationBP.git
-
 ## Based on
  [onevcat/ObservationBP](https://github.com/onevcat/ObservationBP)
 
-## Improvement
-* No more `ObservationView`.
-    * Delay closure without `ObservationView` either.
-    * Use `@Observing` once in each View
-* Instance kept, similar to `@State` and `@StateObject`.
-* Memory leak fixed.
+### Switching to the Stock Observation Framework
 
-## Usage
-| Observation                                      | ObservationBP                                               |
-| ------------------------------------------------ | ----------------------------------------------------------- |
-| var person: Person                               | @Observing var person: Person                               |
-| @State var person = Person(name: "name", age: 1) | @Observing @State var person = Person(name: "name", age: 1) |
+When you can set iOS/tvOS 17 or later as your deploy target, you can switch back to the official framework.
+
+1. Instead of importing `ObservationBP`, change to `import Observation`.
+2. Add `typealias ObservationView = Group` to allow the project building. Then remove all `ObservationView` eventually.
