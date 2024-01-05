@@ -4,9 +4,9 @@ import SwiftSyntaxMacros
 
 @main
 struct ObservationBPMacroPlugin: CompilerPlugin {
-  let providingMacros: [Macro.Type] = [
-    ObservableMacro.self,
-    ObservationTrackedMacro.self,
-    ObservationIgnoredMacro.self,
-  ]
+    let providingMacros: [Macro.Type] = [
+        ObservableMacro.self,
+        ObservationTrackedMacro.self,
+        ObservationIgnoredMacro.self
+    ]
 }

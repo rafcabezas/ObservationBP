@@ -12,10 +12,12 @@ struct TestView: View {
     @State var viewModel = TestViewModel()
 
     var body: some View {
-        VStack {
-            Text("Counter = \(viewModel.counter)")
-            Button("Increment Count") {
-                viewModel.increment()
+        ObservationView {
+            VStack {
+                Text("Counter = \(viewModel.counter)")
+                Button("Increment Count") {
+                    viewModel.increment()
+                }
             }
         }
     }
