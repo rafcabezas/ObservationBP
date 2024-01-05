@@ -124,7 +124,8 @@
         "mangledName": "$s17ObservationBPLock12_ThreadLocalO",
         "moduleName": "ObservationBPLock",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -353,14 +354,14 @@
     {
       "filePath": "\/Users\/raf\/Development\/FWTV\/ObservationBP\/Sources\/ObservationBPLockProject\/ObservationBPLock\/Locking.swift",
       "kind": "IntegerLiteral",
-      "offset": 1148,
+      "offset": 1166,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/raf\/Development\/FWTV\/ObservationBP\/Sources\/ObservationBPLockProject\/ObservationBPLock\/Locking.swift",
       "kind": "IntegerLiteral",
-      "offset": 1263,
+      "offset": 1285,
       "length": 1,
       "value": "1"
     }

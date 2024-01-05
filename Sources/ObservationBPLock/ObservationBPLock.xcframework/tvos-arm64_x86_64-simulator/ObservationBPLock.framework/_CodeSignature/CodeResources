@@ -6,51 +6,51 @@
 	<dict>
 		<key>Headers/ObservationBPLock-Swift.h</key>
 		<data>
-		jBX4v3CsJfTk9XTgJffQwUmLw5U=
+		lg/U7D5MyOZiq55IDORbYaHE7ag=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5NZKX4I/dlagHWf1cvm/q3TNW7A=
+		+zByBgOe15PLCjY692gfIpdPBl0=
 		</data>
 		<key>Modules/ObservationBPLock.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		Gb+jKucW1GZV+85NZdWQLXhdnto=
+		D7QjsYycDnEnO0BZYr0WZFk42Rs=
 		</data>
 		<key>Modules/ObservationBPLock.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		8uZduebGlAIajtlLwKm+F8CqV/4=
+		Q/MIkYjDOlF4Powm9xJa5zVnw1o=
 		</data>
 		<key>Modules/ObservationBPLock.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		SGSMmHXMMikhp/NhbGLGpuFi/e0=
+		ER/XWxPPDGRa/QvT4EEWV6rPVR8=
 		</data>
 		<key>Modules/ObservationBPLock.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		8uZduebGlAIajtlLwKm+F8CqV/4=
+		Q/MIkYjDOlF4Powm9xJa5zVnw1o=
 		</data>
 		<key>Modules/ObservationBPLock.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		wSYMb4jvxgChYiPcpQIB3vLqRVw=
+		VRjcMWGCyO1auwdJ4zgkB2SAMzY=
 		</data>
 		<key>Modules/ObservationBPLock.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		Gb+jKucW1GZV+85NZdWQLXhdnto=
+		D7QjsYycDnEnO0BZYr0WZFk42Rs=
 		</data>
 		<key>Modules/ObservationBPLock.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		lVmqlR0cFJ433rUOPpEg4UbCbts=
+		fXoZZ1qts4nom2vBXuT6NpjCs/k=
 		</data>
 		<key>Modules/ObservationBPLock.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		V/6ANmEP+5TVKvSjIoxPniSUETM=
+		HaBn/rN4m23vzm/PgQKRPBJ/Ymw=
 		</data>
 		<key>Modules/ObservationBPLock.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		lVmqlR0cFJ433rUOPpEg4UbCbts=
+		fXoZZ1qts4nom2vBXuT6NpjCs/k=
 		</data>
 		<key>Modules/ObservationBPLock.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		mzSFhfVg2oD+Otm9BvUWDgc6OhM=
+		GnXRJjnJW093djnbFeDenwV4keY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,77 +63,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kp9eIbuy+F1a5gQ5Z1lJiPOGfM+ajbxTtnURsiBF+Wo=
+			dWUXdSGLtoIus8MNqT0VC8d/O2O9qgfEqoZ/rQvTWrU=
 			</data>
 		</dict>
 		<key>Modules/ObservationBPLock.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rR4MM/ee6ejJF2l53wLyZVq47PtkLS8QdOebrm5wUYw=
+			dUNGh9rxGJaH6b8OMvZ45WOAXjx1aiNOdnrkKtnEPu8=
 			</data>
 		</dict>
 		<key>Modules/ObservationBPLock.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mqRTKD2+f04L8rvV6G2q4ZYcgH52DPStpIIaBQ5Ds1o=
+			yrLSJkBc71hLcSfM7irSl3A45RsEdqLwaZUtw4vjHMo=
 			</data>
 		</dict>
 		<key>Modules/ObservationBPLock.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vi++NmLBwrRFTCRFJ1Vf9t3P5k96ajVNgwRpEyZOFF4=
+			7e6hEq+X6L19XSxvjuI1Wsa2g4jhMUnBcTXO/QFr6+A=
 			</data>
 		</dict>
 		<key>Modules/ObservationBPLock.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mqRTKD2+f04L8rvV6G2q4ZYcgH52DPStpIIaBQ5Ds1o=
+			yrLSJkBc71hLcSfM7irSl3A45RsEdqLwaZUtw4vjHMo=
 			</data>
 		</dict>
 		<key>Modules/ObservationBPLock.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hciOc2qvMN3ZW01ExT0nCq1jYRrNUQ8BfDS23l6OHQ4=
+			fjZOXg7ds0AaeawkagOgjNn6iRDIzqgl5GDxQ4lZ6qY=
 			</data>
 		</dict>
 		<key>Modules/ObservationBPLock.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rR4MM/ee6ejJF2l53wLyZVq47PtkLS8QdOebrm5wUYw=
+			dUNGh9rxGJaH6b8OMvZ45WOAXjx1aiNOdnrkKtnEPu8=
 			</data>
 		</dict>
 		<key>Modules/ObservationBPLock.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mFX7k/Pzg2OwoQ8MfFodJYNaEHps9DZCZHL2qFMwaH0=
+			NFHR04MI+HcwUhZoD3yQHFX1aXeSuMV02SyA3j2U004=
 			</data>
 		</dict>
 		<key>Modules/ObservationBPLock.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RQ7UuVU0zgCue4W58ocqF9YSv4dgFtzxHrcKtfhIEjM=
+			NdZJRLcUjaAm7iaXN2VfNEtf7LFe+HT7/GfLGlxuj74=
 			</data>
 		</dict>
 		<key>Modules/ObservationBPLock.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mFX7k/Pzg2OwoQ8MfFodJYNaEHps9DZCZHL2qFMwaH0=
+			NFHR04MI+HcwUhZoD3yQHFX1aXeSuMV02SyA3j2U004=
 			</data>
 		</dict>
 		<key>Modules/ObservationBPLock.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0invX5YZD4pXsEhQ3SVFSVIDTKqlfU0z+QmHsmdBrGU=
+			fFTSRqMqXWWycXVRa/5VkRRXUUQo+GQ5pknuK6ZX3Ew=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
